@@ -1,0 +1,52 @@
+# ==============================================================================
+# FacultyScreen - Application Architecture & Taxonomy Configuration
+# ==============================================================================
+app_name: "FacultyScreen"
+version: "1.0.0"
+
+taxonomy:
+  degree_levels:
+    - "Undergraduate"
+    - "Postgraduate / Masters"
+    - "PhD / Doctorate"
+    - "Postdoctoral"
+    - "Diploma"
+    - "Certification"
+    - "Other"
+
+  institution_categories:
+    - "IIT"
+    - "NIT"
+    - "IIIT"
+    - "Central University"
+    - "State University"
+    - "Deemed University"
+    - "Private University"
+    - "International University"
+    - "Research Institute"
+    - "Other"
+
+  institution_tiers:
+    - "Tier 1"
+    - "Tier 2"
+    - "Tier 3"
+    - "Unknown / Unclassified"
+
+  experience_categories:
+    - "teaching"
+    - "research"
+    - "industry"
+    - "administrative"
+
+pipeline:
+  vision_scale: 2.0
+  image_quality: 85
+  max_pages_per_resume: 8
+  cache_processed_results: true
+  hash_algorithm: "sha256"
+
+export:
+  markdown_dir: "data/processed"
+  extracted_json_dir: "data/extracted"
+  results_dir: "data/results"
+  logs_dir: "data/logs"

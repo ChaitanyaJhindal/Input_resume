@@ -1,0 +1,71 @@
+# ==============================================================================
+# FacultyScreen - Academic Recruitment Screening Rules Configuration
+# ==============================================================================
+version: "1.0.0"
+department: "General Faculty Pool"
+academic_year: "2025-2026"
+
+rules:
+  - id: "RULE_MIN_DEGREE"
+    name: "Doctoral Degree Requirement"
+    description: "Candidate must possess a Ph.D. or Doctorate degree in a relevant discipline"
+    field: "education.highest_degree"
+    operator: "in"
+    required_value: ["PhD / Doctorate", "Postdoctoral"]
+    is_mandatory: true
+    weight: 30
+    failure_message: "Candidate does not possess an earned Doctorate/Ph.D. degree."
+
+  - id: "RULE_MIN_TEACHING_EXP"
+    name: "Minimum Teaching Experience"
+    description: "Candidate must have at least 2.0 years of academic teaching or instructional experience"
+    field: "experience.teaching_years"
+    operator: ">="
+    required_value: 2.0
+    is_mandatory: true
+    weight: 25
+    failure_message: "Teaching experience is less than the mandatory 2.0 years requirement."
+
+  - id: "RULE_MIN_RESEARCH_EXP"
+    name: "Research Experience"
+    description: "Candidate should have active research experience (postdoc, research fellow, or lab lead)"
+    field: "experience.research_years"
+    operator: ">="
+    required_value: 1.0
+    is_mandatory: false
+    weight: 15
+    failure_message: "Research experience is below 1.0 year."
+
+  - id: "RULE_MIN_PUBLICATIONS"
+    name: "Scholarly Publications"
+    description: "Candidate must have authored at least 2 peer-reviewed journal or conference publications"
+    field: "research.publications_count"
+    operator: ">="
+    required_value: 2
+    is_mandatory: true
+    weight: 20
+    failure_message: "Fewer than 2 peer-reviewed publications identified."
+
+  - id: "RULE_INSTITUTION_CATEGORY"
+    name: "Accredited Institutional Background"
+    description: "Highest degree or significant tenure should be from a recognized accredited institution"
+    field: "education.highest_institution_category"
+    operator: "in"
+    required_value:
+      - "IIT"
+      - "NIT"
+      - "IIIT"
+      - "Central University"
+      - "State University"
+      - "Deemed University"
+      - "Research Institute"
+      - "International University"
+      - "Private University"
+    is_mandatory: false
+    weight: 10
+    failure_message: "Degree-granting institution category is unclassified or unrecognized."
+
+settings:
+  overall_passing_score_percentage: 70.0
+  minimum_confidence_for_auto_approval: 0.85
+  needs_review_confidence_floor: 0.65
