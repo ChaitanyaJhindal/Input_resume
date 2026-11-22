@@ -1,0 +1,101 @@
+# ==============================================================================
+# FacultyScreen - LLM Models, Provider & Rate-Limit Configuration
+# ==============================================================================
+
+groq:
+  models:
+    reasoning: "openai/gpt-oss-20b"
+    vision: "qwen/qwen3.8-27b"
+    advanced: "openai/gpt-oss-120b"
+  defaults:
+    max_tokens: 800
+    temperature: 0.1
+  pool:
+    cooldown_seconds: 8.0
+    max_cooldown_wait_seconds: 5.0
+    max_retries: 12
+    pacing_delay_seconds: 0.1
+    client_max_retries: 0
+    request_timeout_seconds: 60.0
+
+jev:
+  model: "jev-v1-fast"
+  base_url: "https://api.typesafe.ai"
+  timeout_seconds: 5.0
+  confidence_threshold: 0.85
+
+# Per-task overrides. `model` accepts either an alias from groq.models
+# ("reasoning", "vision", "advanced") or any literal model ID.
+# `null` values inherit from groq.defaults (or .env fallback).
+tasks:
+  text_extraction:
+    model: "reasoning"
+    max_tokens: 4096
+    temperature: 0.1
+    reasoning_format: "hidden"
+    reasoning_effort: "low"
+    min_text_chars: 100
+    max_text_chars: 28000
+
+  vision_extraction:
+    model: "vision"
+    max_tokens: null
+    temperature: null
+    max_pages: 2
+    render_scale: 2.0
+    thumbnail_size: [1600, 1600]
+    image_quality: 85
+
+  vision_agent:
+    model: "vision"
+    max_tokens: null
+    temperature: null
+    max_pages: 2
+    render_scale: 1.8
+    thumbnail_size: [1500, 1500]
+    image_quality: 85
+
+  education_agent:
+    model: "reasoning"
+    max_tokens: 1000
+    temperature: 0.0
+    reasoning_format: "hidden"
+    reasoning_effort: "low"
+    escalation_confidence_threshold: 0.75
+
+  institution_agent:
+    model: "reasoning"
+    max_tokens: 600
+    temperature: 0.0
+    reasoning_format: "hidden"
+    reasoning_effort: "low"
+    escalation_confidence_threshold: 0.85
+
+  experience_agent:
+    model: "reasoning"
+    max_tokens: 100
+    temperature: 0.0
+    reasoning_format: "hidden"
+    reasoning_effort: null
+
+  cli_markdown_parser:
+    model: "vision"
+    max_tokens: 2048
+    temperature: 0.2
+    top_p: 0.95
+    render_scale: 2.0
+    image_quality: 85
+
+  jd_parser:
+    model: "reasoning"
+    max_tokens: 2500
+    temperature: 0.1
+    reasoning_format: "hidden"
+    reasoning_effort: "low"
+
+  dynamic_evaluator:
+    model: "reasoning"
+    max_tokens: 3000
+    temperature: 0.1
+    reasoning_format: "hidden"
+    reasoning_effort: "low"

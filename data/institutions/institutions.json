@@ -1,0 +1,652 @@
+{
+  "institutions": [
+    {
+      "canonical_name": "IIT Bombay",
+      "aliases": ["Indian Institute of Technology Bombay", "I.I.T. Bombay", "IIT Powai", "IITB"],
+      "category": "IIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Maharashtra"
+    },
+    {
+      "canonical_name": "IIT Delhi",
+      "aliases": ["Indian Institute of Technology Delhi", "I.I.T. Delhi", "IITD", "IIT Hauz Khas"],
+      "category": "IIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Delhi"
+    },
+    {
+      "canonical_name": "IIT Madras",
+      "aliases": ["Indian Institute of Technology Madras", "I.I.T. Madras", "IITM", "IIT Chennai"],
+      "category": "IIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Tamil Nadu"
+    },
+    {
+      "canonical_name": "IIT Kanpur",
+      "aliases": ["Indian Institute of Technology Kanpur", "I.I.T. Kanpur", "IITK"],
+      "category": "IIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "canonical_name": "IIT Kharagpur",
+      "aliases": ["Indian Institute of Technology Kharagpur", "I.I.T. Kharagpur", "IITKGP"],
+      "category": "IIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "West Bengal"
+    },
+    {
+      "canonical_name": "IIT Roorkee",
+      "aliases": ["Indian Institute of Technology Roorkee", "I.I.T. Roorkee", "IITR", "University of Roorkee"],
+      "category": "IIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Uttarakhand"
+    },
+    {
+      "canonical_name": "IIT Guwahati",
+      "aliases": ["Indian Institute of Technology Guwahati", "I.I.T. Guwahati", "IITG"],
+      "category": "IIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Assam"
+    },
+    {
+      "canonical_name": "IIT Hyderabad",
+      "aliases": ["Indian Institute of Technology Hyderabad", "I.I.T. Hyderabad", "IITH"],
+      "category": "IIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Telangana"
+    },
+    {
+      "canonical_name": "IIT BHU Varanasi",
+      "aliases": ["Indian Institute of Technology BHU", "IIT (BHU) Varanasi", "IT BHU"],
+      "category": "IIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "canonical_name": "IISc Bangalore",
+      "aliases": ["Indian Institute of Science", "Indian Institute of Science Bangalore", "IISc", "I.I.Sc."],
+      "category": "Research Institute",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Karnataka"
+    },
+    {
+      "canonical_name": "TIFR Mumbai",
+      "aliases": ["Tata Institute of Fundamental Research", "TIFR"],
+      "category": "Research Institute",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Maharashtra"
+    },
+    {
+      "canonical_name": "NIT Trichy",
+      "aliases": ["National Institute of Technology Tiruchirappalli", "NIT Tiruchirappalli", "NITT", "REC Trichy"],
+      "category": "NIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Tamil Nadu"
+    },
+    {
+      "canonical_name": "NIT Surathkal",
+      "aliases": ["National Institute of Technology Karnataka", "NITK Surathkal", "KREC Surathkal"],
+      "category": "NIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Karnataka"
+    },
+    {
+      "canonical_name": "NIT Rourkela",
+      "aliases": ["National Institute of Technology Rourkela", "NITR"],
+      "category": "NIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Odisha"
+    },
+    {
+      "canonical_name": "NIT Warangal",
+      "aliases": ["National Institute of Technology Warangal", "NITW", "REC Warangal"],
+      "category": "NIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Telangana"
+    },
+    {
+      "canonical_name": "NIT Calicut",
+      "aliases": ["National Institute of Technology Calicut", "NITC", "REC Calicut"],
+      "category": "NIT",
+      "tier": "Tier 2",
+      "country": "India",
+      "state": "Kerala"
+    },
+    {
+      "canonical_name": "IIIT Hyderabad",
+      "aliases": ["International Institute of Information Technology Hyderabad", "IIIT-H", "IIITH"],
+      "category": "IIIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Telangana"
+    },
+    {
+      "canonical_name": "IIIT Bangalore",
+      "aliases": ["International Institute of Information Technology Bangalore", "IIIT-B", "IIITB"],
+      "category": "IIIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Karnataka"
+    },
+    {
+      "canonical_name": "IIIT Delhi",
+      "aliases": ["Indraprastha Institute of Information Technology Delhi", "IIIT-D", "IIITD"],
+      "category": "IIIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Delhi"
+    },
+    {
+      "canonical_name": "IIIT Allahabad",
+      "aliases": ["Indian Institute of Information Technology Allahabad", "IIITA"],
+      "category": "IIIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "canonical_name": "University of Delhi",
+      "aliases": ["Delhi University", "DU", "University of Delhi, New Delhi"],
+      "category": "Central University",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Delhi"
+    },
+    {
+      "canonical_name": "Jawaharlal Nehru University",
+      "aliases": ["JNU", "J.N.U. New Delhi"],
+      "category": "Central University",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Delhi"
+    },
+    {
+      "canonical_name": "Banaras Hindu University",
+      "aliases": ["BHU", "Banaras Hindu University Varanasi"],
+      "category": "Central University",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "canonical_name": "University of Hyderabad",
+      "aliases": ["Hyderabad Central University", "HCU", "UoH"],
+      "category": "Central University",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Telangana"
+    },
+    {
+      "canonical_name": "Aligarh Muslim University",
+      "aliases": ["AMU", "Aligarh Muslim University, Aligarh"],
+      "category": "Central University",
+      "tier": "Tier 2",
+      "country": "India",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "canonical_name": "University of Lucknow",
+      "aliases": ["Lucknow University", "LU"],
+      "category": "State University",
+      "tier": "Tier 2",
+      "country": "India",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "canonical_name": "University of Mumbai",
+      "aliases": ["Mumbai University", "Bombay University"],
+      "category": "State University",
+      "tier": "Tier 2",
+      "country": "India",
+      "state": "Maharashtra"
+    },
+    {
+      "canonical_name": "Anna University",
+      "aliases": ["Anna University Chennai"],
+      "category": "State University",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Tamil Nadu"
+    },
+    {
+      "canonical_name": "Jadavpur University",
+      "aliases": ["JU Kolkata"],
+      "category": "State University",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "West Bengal"
+    },
+    {
+      "canonical_name": "BITS Pilani",
+      "aliases": ["Birla Institute of Technology and Science Pilani", "BITS", "BITS-Pilani"],
+      "category": "Deemed University",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Rajasthan"
+    },
+    {
+      "canonical_name": "VIT Vellore",
+      "aliases": ["Vellore Institute of Technology", "VIT", "VIT University"],
+      "category": "Deemed University",
+      "tier": "Tier 2",
+      "country": "India",
+      "state": "Tamil Nadu"
+    },
+    {
+      "canonical_name": "Manipal Academy of Higher Education",
+      "aliases": ["Manipal University", "MAHE"],
+      "category": "Deemed University",
+      "tier": "Tier 2",
+      "country": "India",
+      "state": "Karnataka"
+    },
+    {
+      "canonical_name": "Thapar Institute of Engineering and Technology",
+      "aliases": ["Thapar University", "TIET Patiala"],
+      "category": "Deemed University",
+      "tier": "Tier 2",
+      "country": "India",
+      "state": "Punjab"
+    },
+    {
+      "canonical_name": "Symbiosis International University",
+      "aliases": ["Symbiosis University", "SIU Pune", "Symbiosis"],
+      "category": "Deemed University",
+      "tier": "Tier 2",
+      "country": "India",
+      "state": "Maharashtra"
+    },
+    {
+      "canonical_name": "Amity University",
+      "aliases": ["Amity University Noida", "Amity"],
+      "category": "Private University",
+      "tier": "Tier 3",
+      "country": "India",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "canonical_name": "Shiv Nadar University",
+      "aliases": ["SNU", "Shiv Nadar Institute of Eminence"],
+      "category": "Private University",
+      "tier": "Tier 2",
+      "country": "India",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "canonical_name": "Ashoka University",
+      "aliases": ["Ashoka University Sonipat"],
+      "category": "Private University",
+      "tier": "Tier 2",
+      "country": "India",
+      "state": "Haryana"
+    },
+    {
+      "canonical_name": "University of Cambridge",
+      "aliases": ["Cambridge University", "Cambridge", "Judge Business School"],
+      "category": "International University",
+      "tier": "Tier 1",
+      "country": "United Kingdom",
+      "state": "England"
+    },
+    {
+      "canonical_name": "University of Oxford",
+      "aliases": ["Oxford University", "Oxford"],
+      "category": "International University",
+      "tier": "Tier 1",
+      "country": "United Kingdom",
+      "state": "England"
+    },
+    {
+      "canonical_name": "Stanford University",
+      "aliases": ["Stanford", "Leland Stanford Junior University"],
+      "category": "International University",
+      "tier": "Tier 1",
+      "country": "United States",
+      "state": "California"
+    },
+    {
+      "canonical_name": "Massachusetts Institute of Technology",
+      "aliases": ["MIT", "M.I.T."],
+      "category": "International University",
+      "tier": "Tier 1",
+      "country": "United States",
+      "state": "Massachusetts"
+    },
+    {
+      "canonical_name": "University of Liverpool",
+      "aliases": ["Liverpool University", "UoL"],
+      "category": "International University",
+      "tier": "Tier 2",
+      "country": "United Kingdom",
+      "state": "England"
+    },
+    {
+      "canonical_name": "University of New Brunswick",
+      "aliases": ["UNB Canada", "UNB Fredericton"],
+      "category": "International University",
+      "tier": "Tier 2",
+      "country": "Canada",
+      "state": "New Brunswick"
+    },
+    {
+      "canonical_name": "MNNIT Allahabad",
+      "aliases": ["Motilal Nehru National Institute of Technology Allahabad", "Motilal Nehru National Institute of Technology", "NIT Allahabad", "MNNIT"],
+      "category": "NIT",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "canonical_name": "University of Allahabad",
+      "aliases": ["Allahabad University"],
+      "category": "Central University",
+      "tier": "Tier 2",
+      "country": "India",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "canonical_name": "Delhi Technological University",
+      "aliases": ["DTU", "Delhi College of Engineering", "DCE"],
+      "category": "State University",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Delhi"
+    },
+    {
+      "canonical_name": "Guru Gobind Singh Indraprastha University",
+      "aliases": ["GGSIPU", "GGSIPU Delhi", "IP University", "Indraprastha University"],
+      "category": "State University",
+      "tier": "Tier 2",
+      "country": "India",
+      "state": "Delhi"
+    },
+    {
+      "canonical_name": "Indian Institute of Foreign Trade",
+      "aliases": ["IIFT", "IIFT Delhi"],
+      "category": "Deemed University",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Delhi"
+    },
+    {
+      "canonical_name": "NMIMS University",
+      "aliases": ["Narsee Monjee Institute of Management Studies", "NMIMS", "SVKM's NMIMS"],
+      "category": "Deemed University",
+      "tier": "Tier 2",
+      "country": "India",
+      "state": "Maharashtra"
+    },
+    {
+      "canonical_name": "Bharati Vidyapeeth",
+      "aliases": ["Bharti Vidyapeeth", "Bharati Vidyapeeth Deemed University", "Bharti Vidyapeeth, Deemed University", "Bhartiya Vidyapeeth - IMED"],
+      "category": "Deemed University",
+      "tier": "Tier 2",
+      "country": "India",
+      "state": "Maharashtra"
+    },
+    {
+      "canonical_name": "XLRI Jamshedpur",
+      "aliases": ["XLRI", "Xavier School of Management", "Xavier Labour Relations Institute"],
+      "category": "Private University",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Jharkhand"
+    },
+    {
+      "canonical_name": "OP Jindal Global University",
+      "aliases": ["O.P. Jindal Global University", "JGU"],
+      "category": "Private University",
+      "tier": "Tier 2",
+      "country": "India",
+      "state": "Haryana"
+    },
+    {
+      "canonical_name": "Lovely Professional University",
+      "aliases": ["LPU", "LPU Phagwara"],
+      "category": "Private University",
+      "tier": "Tier 3",
+      "country": "India",
+      "state": "Punjab"
+    },
+    {
+      "canonical_name": "School of Planning and Architecture Delhi",
+      "aliases": ["School of Planning and Architecture, Delhi, India", "SPA Delhi"],
+      "category": "Central University",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Delhi"
+    },
+    {
+      "canonical_name": "Savitribai Phule Pune University",
+      "aliases": ["Pune University", "University of Pune", "SPPU"],
+      "category": "State University",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Maharashtra"
+    },
+    {
+      "canonical_name": "University of Calcutta",
+      "aliases": ["Calcutta University"],
+      "category": "State University",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "West Bengal"
+    },
+    {
+      "canonical_name": "University of Madras",
+      "aliases": ["Madras University"],
+      "category": "State University",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Tamil Nadu"
+    },
+    {
+      "canonical_name": "IIM Ahmedabad",
+      "aliases": ["Indian Institute of Management Ahmedabad", "IIMA"],
+      "category": "Research Institute",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Gujarat"
+    },
+    {
+      "canonical_name": "IIM Bangalore",
+      "aliases": ["Indian Institute of Management Bangalore", "IIMB"],
+      "category": "Research Institute",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "Karnataka"
+    },
+    {
+      "canonical_name": "IIM Calcutta",
+      "aliases": ["Indian Institute of Management Calcutta", "IIMC"],
+      "category": "Research Institute",
+      "tier": "Tier 1",
+      "country": "India",
+      "state": "West Bengal"
+    },
+    {
+      "canonical_name": "Carnegie Mellon University",
+      "aliases": ["CMU"],
+      "category": "International University",
+      "tier": "Tier 1",
+      "country": "United States",
+      "state": "Pennsylvania"
+    },
+    {
+      "canonical_name": "Harvard University",
+      "aliases": ["Harvard", "Harvard T.H. Chan School of Public Health", "Harvard Business School"],
+      "category": "International University",
+      "tier": "Tier 1",
+      "country": "United States",
+      "state": "Massachusetts"
+    },
+    {
+      "canonical_name": "University of British Columbia",
+      "aliases": ["UBC", "The University of British Columbia", "The University of British Columbia, Canada"],
+      "category": "International University",
+      "tier": "Tier 1",
+      "country": "Canada",
+      "state": "British Columbia"
+    },
+    {
+      "canonical_name": "University of Toronto",
+      "aliases": ["UofT"],
+      "category": "International University",
+      "tier": "Tier 1",
+      "country": "Canada",
+      "state": "Ontario"
+    },
+    {
+      "canonical_name": "University of Rochester",
+      "aliases": ["Rochester University"],
+      "category": "International University",
+      "tier": "Tier 1",
+      "country": "United States",
+      "state": "New York"
+    },
+    {
+      "canonical_name": "University of Nottingham",
+      "aliases": ["Nottingham University"],
+      "category": "International University",
+      "tier": "Tier 1",
+      "country": "United Kingdom",
+      "state": "England"
+    },
+    {
+      "canonical_name": "University of San Francisco",
+      "aliases": ["USF", "School of Management, University of San Francisco"],
+      "category": "International University",
+      "tier": "Tier 2",
+      "country": "United States",
+      "state": "California"
+    },
+    {
+      "canonical_name": "Temple University",
+      "aliases": ["Fox School of Business, Temple University"],
+      "category": "International University",
+      "tier": "Tier 2",
+      "country": "United States",
+      "state": "Pennsylvania"
+    },
+    {
+      "canonical_name": "Georgia State University",
+      "aliases": ["GSU Atlanta"],
+      "category": "International University",
+      "tier": "Tier 2",
+      "country": "United States",
+      "state": "Georgia"
+    },
+    {
+      "canonical_name": "ETH Zurich",
+      "aliases": ["Swiss Federal Institute of Technology Zurich"],
+      "category": "International University",
+      "tier": "Tier 1",
+      "country": "Switzerland",
+      "state": "Zurich"
+    },
+    {
+      "canonical_name": "National University of Singapore",
+      "aliases": ["NUS"],
+      "category": "International University",
+      "tier": "Tier 1",
+      "country": "Singapore",
+      "state": "Singapore"
+    },
+    {
+      "canonical_name": "Sun Yat-sen University",
+      "aliases": ["School of Business, Sun Yat-sen University", "SYSU"],
+      "category": "International University",
+      "tier": "Tier 1",
+      "country": "China",
+      "state": "Guangdong"
+    },
+    {
+      "canonical_name": "South China University of Technology",
+      "aliases": ["School of Management, South China University of Technology", "SCUT"],
+      "category": "International University",
+      "tier": "Tier 2",
+      "country": "China",
+      "state": "Guangdong"
+    },
+    {
+      "canonical_name": "De Montfort University",
+      "aliases": ["De Montfort University, UK", "DMU Leicester"],
+      "category": "International University",
+      "tier": "Tier 2",
+      "country": "United Kingdom",
+      "state": "England"
+    },
+    {
+      "canonical_name": "Louisiana Tech University",
+      "aliases": ["Louisiana Tech University, Ruston, Louisiana"],
+      "category": "International University",
+      "tier": "Tier 2",
+      "country": "United States",
+      "state": "Louisiana"
+    },
+    {
+      "canonical_name": "Fairleigh Dickinson University",
+      "aliases": ["FDU"],
+      "category": "International University",
+      "tier": "Tier 2",
+      "country": "United States",
+      "state": "New Jersey"
+    },
+    {
+      "canonical_name": "Florida A&M University",
+      "aliases": ["FAMU", "Florida Agricultural and Mechanical University"],
+      "category": "International University",
+      "tier": "Tier 2",
+      "country": "United States",
+      "state": "Florida"
+    },
+    {
+      "canonical_name": "Grambling State University",
+      "aliases": ["Grambling State University, Grambling, Louisiana"],
+      "category": "International University",
+      "tier": "Tier 2",
+      "country": "United States",
+      "state": "Louisiana"
+    },
+    {
+      "canonical_name": "Austral University",
+      "aliases": ["Universidad Austral", "IAE Business School", "IAE Business School, Austral University, Argentina"],
+      "category": "International University",
+      "tier": "Tier 2",
+      "country": "Argentina",
+      "state": "Buenos Aires"
+    },
+    {
+      "canonical_name": "HHL Leipzig Graduate School of Management",
+      "aliases": ["HHL Graduate School of Management", "HHL Graduate School of Management, Leipzig, Germany"],
+      "category": "International University",
+      "tier": "Tier 2",
+      "country": "Germany",
+      "state": "Saxony"
+    },
+    {
+      "canonical_name": "University of Ghana",
+      "aliases": ["Legon University"],
+      "category": "International University",
+      "tier": "Tier 2",
+      "country": "Ghana",
+      "state": "Greater Accra"
+    }
+  ]
+}

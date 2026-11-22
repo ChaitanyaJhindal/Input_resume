@@ -1,0 +1,98 @@
+# ==============================================================================
+# FacultyScreen - Application Architecture & Taxonomy Configuration
+# ==============================================================================
+app_name: "FacultyScreen"
+version: "1.0.0"
+
+taxonomy:
+  degree_levels:
+    - "Undergraduate"
+    - "Postgraduate / Masters"
+    - "PhD / Doctorate"
+    - "PhD (In Progress)"
+    - "Postdoctoral"
+    - "Diploma"
+    - "Certification"
+    - "Other"
+
+  institution_categories:
+    - "IIT"
+    - "NIT"
+    - "IIIT"
+    - "Central University"
+    - "State University"
+    - "Deemed University"
+    - "Private University"
+    - "International University"
+    - "Research Institute"
+    - "Other"
+
+  institution_tiers:
+    - "Tier 1"
+    - "Tier 2"
+    - "Tier 3"
+    - "Unknown / Unclassified"
+
+  experience_categories:
+    - "teaching"
+    - "research"
+    - "industry"
+    - "administrative"
+
+pipeline:
+  version: "1.0.0"
+  agentic_version: "2.0.0-agentic"
+  vision_scale: 2.0
+  image_quality: 85
+  max_pages_per_resume: 8
+  cache_processed_results: true
+  hash_algorithm: "sha256"
+  supported_extensions:
+    - ".pdf"
+    - ".png"
+    - ".jpg"
+    - ".jpeg"
+    - ".webp"
+  ignored_directories:
+    - ".venv"
+    - "venv"
+    - "data"
+    - "apps"
+    - "backend"
+    - "tests"
+    - "scripts"
+    - "paddle_env"
+    - "node_modules"
+    - ".git"
+  batch_upload_delay_seconds: 0.3
+  max_upload_size_mb: 25
+
+review:
+  high_confidence_threshold: 0.90
+  queue_confidence_threshold: 0.85
+  queue_min_teaching_years: 2.0
+
+export:
+  markdown_dir: "data/processed"
+  extracted_json_dir: "data/extracted"
+  results_dir: "data/results"
+  logs_dir: "data/logs"
+
+external_enrichment:
+  enabled: true
+  timeout_seconds: 5.0
+  enable_orcid_api: true
+  enable_openalex_api: true
+  cache_ttl_hours: 168
+
+evaluation:
+  allow_compensating_strengths: true
+  default_weights:
+    requirement_fit: 0.35
+    domain_semantic_fit: 0.25
+    teaching_fit: 0.15
+    research_and_impact: 0.15
+    alternative_strength_credit: 0.10
+  strong_match_threshold: 78.0
+  alternative_fit_threshold: 65.0
+  conditional_threshold: 50.0
